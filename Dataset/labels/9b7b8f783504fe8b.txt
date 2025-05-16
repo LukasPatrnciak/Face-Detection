@@ -1,0 +1,23 @@
+- Naˇc´ıtajte dataset a jeho sprievodn´y CSV s´ubor, ktor´y obsahuje dvojice obr´azkov
+spolu s inform´aciou o tom, ˇci patria tej istej osobe. Kol’ko p´arov je zhodn´ych a kol’ko
+rozdielnych. Zobrazte reprezentat´ıvny p´ar. 
+- Vyberte 3 vzorky z datasetu, 2 rˆozne a 2 rovnak´e osoby (jeden rovnak´y obr´azok bude
+pouˇzit´y v kaˇzdom experimente). Pomocou algoritmu SIFT z OpenCV zrealizujte
+n´ajdenie kl’´uˇcov´ych bodov a n´asledne namapujte kl’´uˇcov´e body na seba. Na z´aklade
+v´ysledkov vyvod’te z´aver.
+- V r´amci zadania budete porovn´avat’ dve vami vybran´e met´ody na verifik´aciu tv´ar´ı.
+V jednom pr´ıpade pouˇzite extraktor tr´enovan´y na Imagenete, v druhom pr´ıpade
+pouˇzite extraktor tr´enovan´y na l’udsk´ych tv´arach.
+– Z kaˇzdej tv´are z´ıskajte pr´ıznaky na verifik´aciu tv´ar´ı pomocou Vami vybran´ych
+met´od. 
+– Porovnajte pr´ıznaky pre dvojice tv´ar´ı Pr´ıznaky porovn´avajte pomocou odpor
+´uˇcanej metriky modelu. Vyhodnot’te v´ysledky pre p´ary fotiek z True/False
+– V´ysledky analyzujte a vyhodnot’te pomocou ROC krivky.
+– Zistenia analyzujte. Pomocou kriviek n´ajdite: 1b
+∗ najlepˇs´ı spˆosob generovania pr´ıznakov,
+∗ dobr´u hodnotu pre threshold podobnosti.
+– V r´amci anal´yzy taktieˇz zistite, ˇci sa d´a pozorovat’ nejak´a vlastnost’ (ˇsum,
+rozmazanie, v´yraz), ktor´a sp´aja kombin´acie (nevyhodnocujte 1 dvojicu, analyzujte
+top N a hl’adajte podobnosti), ktor´e dosiahli maxim´alne a minim´alne
+hodnoty v r´amci True a False p´arov tv´ar´ı? Staˇc´ı vyhodnotit’ vizu´alne a zobrazit’
+reprezentantov aby ste podloˇzili svoje tvrdenia. 1.5b
